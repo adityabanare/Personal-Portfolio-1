@@ -221,7 +221,7 @@
     items: 1
   });
 
-  /* Init AOS
+  // Init AOS
   function aos_init() {
     AOS.init({
       duration: 1000,
@@ -231,9 +231,20 @@
   }
   $(window).on('load', function() {
     aos_init();
-  }); */
+  });
 
 })(jQuery);
 
 
 
+// $(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		var preloader = document.getElementById("loading");
+		// window.addEventListener('load', function(){
+		// 	preloader.style.display = 'none';
+		// 	})
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
